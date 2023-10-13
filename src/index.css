@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Permanent+Marker&family=Poppins:wght@100&family=Raleway:ital,wght@0,600;0,700;1,400&family=Roboto+Mono:wght@700&display=swap');
+
+body{
+  font-family: Raleway,sans-serif;
+  margin: 0;
+  font-size: 1.5rem;
+  text-align: center;
+  background-image:url(https://i.postimg.cc/cHjFMzJr/3f7c2e51d5f75beabec6e5803551dc80.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  height: 100vh;
+}
+

@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Permanent+Marker&family=Poppins:wght@100&family=Raleway:ital,wght@0,600;0,700;1,400&family=Roboto+Mono:wght@700&display=swap');
+
+
+.App{
+    max-width: 100%;
+    margin: 30px auto;
+    color: rgb(238, 218, 42);
+    
+
+}
+
+button{
+    background: none;
+    border:solid black;
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: #d862d7;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: -7px;
+    font-size: 1em;
+}
+
+button:hover{
+    background: rgb(131, 5, 151);
+    color: #ebb2e4;
+    border: none;
+}
+.card-grid{
+    width: 30px;
+    padding-left: 22%;
+    height: 20px;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    margin-top: 30px;
+    grid-gap: 20px;
+}
+p{
+    margin-top:33.5%;
+    
+}
+
+  @media screen and (max-width: 480px) {
+    .App {
+      max-width: 200px;
+    }
+  
+    .card-grid {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  
+    
+    button {
+      font-size: 0.8em;
+      padding: 4px 8px;
+    }
+    button:hover{
+        background: rgb(131, 5, 151);
+        color: #ebb2e4;
+        border: none;
+    }
+    p{
+        margin-top: -5px;
+        /* position: fixed; */
+      }
+  }
+  @media (max-width: 600px){
+
+    .App{
+        /* position: fixed; */
+        max-width: 100%;
+        margin: 30px auto;
+        color: rgb(238, 218, 42);
+
+    }
+
+
+    .card-grid {
+    
+        width: 10vw;
+     padding: 2%;
+        height: 60vh;
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr 1fr  ;
+        margin-top: 40px;
+        grid-gap: 20px;
+      }
+      button {
+        font-size: 0.8em;
+        padding: 4px 8px;
+      }
+
+      button:hover{
+        background: rgb(131, 5, 151);
+        color: #dccada;
+        border: none;
+    }
+
+      p{
+        margin-top: -4px;
+        /* position: fixed; */
+      }
+  }
+
+
+  @media (max-width: 1200px){
+
+    .App{
+        /* position: fixed; */
+        max-width: 100%;
+        margin: 30px auto;
+        color: rgb(238, 218, 42);
+
+    }
+
+
+    .card-grid {
+    
+        width: 10vw;
+     padding: 2%;
+        height: 60vh;
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr 1fr  ;
+        margin-top: 40px;
+        grid-gap: 20px;
+      }
+      button {
+        font-size: 0.8em;
+        padding: 4px 8px;
+      }
+
+      button:hover{
+        background: rgb(131, 5, 151);
+        color: #dccada;
+        border: none;
+    }
+
+      p{
+        margin-top: -4px;
+        /* position: fixed; */
+      }
+  }
