@@ -1,46 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Permanent+Marker&family=Poppins:wght@100&family=Raleway:ital,wght@0,600;0,700;1,400&family=Roboto+Mono:wght@700&display=swap');
 
 
-.App{
-    max-width: 100%;
-    margin: 30px auto;
-    color: rgb(238, 218, 42);
-    
+.App {
+  max-width: 100%;
+  margin: 30px auto;
+  /* color: rgb(238, 218, 42); */
+  background: linear-gradient(to right, #f32170,
+      #ff6b08, #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
 
 }
 
-button{
-    background: none;
-    border:solid black;
-    padding: 6px 12px;
-    border-radius: 4px;
-    color: #d862d7;
-    font-weight: bold;
-    cursor: pointer;
-    margin-top: -7px;
-    font-size: 1em;
+button {
+  background: none;
+  border: solid black;
+  padding: 6px 12px;
+  border-radius: 4px;
+  color: #d862d7;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: -7px;
+  font-size: 1em;
 }
 
-button:hover{
-    background: rgb(131, 5, 151);
-    color: #ebb2e4;
-    border: none;
-}
-.card-grid{
-    width: 30px;
-    padding-left: 22%;
-    height: 20px;
-    display:grid;
-    grid-template-columns:1fr 1fr 1fr 1fr;
-    margin-top: 30px;
-    grid-gap: 20px;
-}
-p{
-    margin-top:33.5%;
-    
+button:hover {
+  /* background: rgb(232, 215, 235); */
+  color: #4b0543;
+  font-size: 25px;
+  box-shadow: 2px 2px 2px 3px rgb(81, 9, 108);
+  /* border: none; */
 }
 
-  @media screen and (max-width: 480px) {
+.card-grid {
+  width: 30px;
+  padding-left: 22%;
+  height: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 30px;
+  grid-gap: 20px;
+}
+
+p {
+  margin-top: 33.5%;
+
+}
+
+/* @media screen and (max-width: 480px) {
     .App {
       max-width: 200px;
     }
@@ -61,13 +69,14 @@ p{
     }
     p{
         margin-top: -5px;
-        /* position: fixed; */
+        
       }
-  }
-  @media (max-width: 600px){
+  } */
+/* @media (max-width: 650px){
 
     .App{
-        /* position: fixed; */
+        
+        height: 100vh;
         max-width: 100%;
         margin: 30px auto;
         color: rgb(238, 218, 42);
@@ -84,6 +93,7 @@ p{
         grid-template-columns:1fr 1fr 1fr 1fr  ;
         margin-top: 40px;
         grid-gap: 20px;
+      
       }
       button {
         font-size: 0.8em;
@@ -98,45 +108,183 @@ p{
 
       p{
         margin-top: -4px;
-        /* position: fixed; */
+       
       }
+  } */
+
+
+@media (min-width: 1000px) {
+
+  .App {
+
+    max-width: 100vw;
+    margin: 5px auto;
+padding-left: 5%;
+    position: fixed;
   }
 
 
-  @media (max-width: 1200px){
+  .card-grid {
 
-    .App{
-        /* position: fixed; */
-        max-width: 100%;
-        margin: 30px auto;
-        color: rgb(238, 218, 42);
+    width: 25vw;
+    padding: 5%;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 15px;
+    grid-gap: 10px;
+  
+  }
 
-    }
+  button {
+    font-size: 0.8em;
+    padding: 4px 8px;
+  }
 
+  button:hover {
+    background: rgb(131, 5, 151);
+    color: #dccada;
+    border: none;
+  }
 
-    .card-grid {
+  p {
+    margin-top: 22px;
     
-        width: 10vw;
-     padding: 2%;
-        height: 60vh;
-        display:grid;
-        grid-template-columns:1fr 1fr 1fr 1fr  ;
-        margin-top: 40px;
-        grid-gap: 20px;
-      }
-      button {
-        font-size: 0.8em;
-        padding: 4px 8px;
-      }
-
-      button:hover{
-        background: rgb(131, 5, 151);
-        color: #dccada;
-        border: none;
-    }
-
-      p{
-        margin-top: -4px;
-        /* position: fixed; */
-      }
   }
+}
+
+
+
+
+@media (min-width: 150px) {
+
+  .App {
+
+    max-width: 100vw;
+    margin: 1px 1px;
+    position: fixed;
+  }
+
+
+  .card-grid {
+
+    width: 100%;
+    padding: 1%;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 5px;
+    grid-gap: 1px;
+  
+  }
+
+  button {
+    font-size: 0.8em;
+    padding: 4px 8px;
+  }
+
+  button:hover {
+    background: rgb(131, 5, 151);
+    color: #dccada;
+    border: none;
+  }
+
+  p {
+    margin-top: 40px;
+    
+  }
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 300px) {
+
+  .App {
+
+    max-width: 100vw;
+    margin: 5px auto;
+padding-left: 5%;
+    position: fixed;
+  }
+
+
+  .card-grid {
+
+    width: 25vw;
+    padding: 5%;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 15px;
+    grid-gap: 10px;
+  
+  }
+
+  button {
+    font-size: 0.8em;
+    padding: 4px 8px;
+  }
+
+  button:hover {
+    background: rgb(131, 5, 151);
+    color: #dccada;
+    border: none;
+  }
+
+  p {
+    margin-top: 40px;
+    
+  }
+}
+
+
+
+
+
+
+@media (min-width: 600px) {
+
+  .App {
+
+    max-width: 100vw;
+    margin: 5px auto;
+padding: 1% 25%;
+    position: fixed;
+  }
+
+
+  .card-grid {
+
+    width: 25vw;
+    padding: 1%;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 15px;
+    grid-gap: 10px;
+  
+  }
+
+  button {
+    font-size: 0.8em;
+    padding: 4px 8px;
+  }
+
+  button:hover {
+    background: rgb(131, 5, 151);
+    color: #dccada;
+    border: none;
+  }
+
+  p {
+    margin-top: 10px;
+    
+  }
+}

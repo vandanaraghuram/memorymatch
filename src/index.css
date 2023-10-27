@@ -6,7 +6,8 @@ body{
   margin: 0;
   font-size: 1.5rem;
   text-align: center;
-  background-image:url(https://i.postimg.cc/cHjFMzJr/3f7c2e51d5f75beabec6e5803551dc80.gif);
+  /* background-image:url(https://i.postimg.cc/cHjFMzJr/3f7c2e51d5f75beabec6e5803551dc80.gif); */
+  background-image: linear-gradient(rgb(102, 10, 145),rgb(47, 6, 47));
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
